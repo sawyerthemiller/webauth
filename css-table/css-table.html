@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    
+    
+}
+
+table {
+    width: 90%;
+}
+
+th.th2 {
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+    background-color: orange;
+}
+
+th {
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    background-color: orange;
+}
+
+td{
+    height: 30px;
+    text-align: right;
+    vertical-align: bottom;
+    padding: 10px
+}
+
+caption {
+    background-color: red;
+}
+
+tbody {
+    background-color: yellow;
+}
+
+tfoot {
+    background-color: lime;
+}
+</style>
+</head>
+<body style="background-color:black;">
+
+    <table>
+        <caption style="font-family:monospace; text-align:center; font-size: 2em;">Things</caption>
+        <tr>
+            <th>Things 1</th>
+            <th class="th2">Things 2</th>
+            <th>Things 3</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>Thing 1</td>
+            <td>Thing 2</td>
+            <td>Thing 3</td>
+        </tr>
+
+        <tr>
+            <td>Thing 4</td>
+            <td>Thing 5</td>
+            <td>Thing 6</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>End of things 1</td>
+                <td>End of things 2</td>
+                <td>End of things 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
