@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+
+    div.div1 {
+        width: 350px;
+        padding: 20px;
+        border: 10px solid green;
+        margin: 20px 20px 20px 20px;
+        outline: green dotted 4px;
+    }
+
+    div.div2 {
+        width: 350px;
+        /* PADDING */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        /* BORDER */
+        border-top: 10px solid green;
+        border-bottom: 10px solid green;
+        border-left: 20px solid green;
+        border-right: 20px solid green;
+        /* MARGIN */
+        margin: 20px 30px 20px 30px;
+        outline: green dotted 4px;
+    }
+
+    div.div3 {
+        width: 350px;
+        /* PADDING */
+        padding: 10px 20px 30px 40px;
+        /* BORDER */
+        border-top: 10px solid green;
+        border-bottom: 20px solid green;
+        border-left: 30px solid green;
+        border-right: 40px solid green;
+        /* MARGIN */
+        margin: 10px 20px 30px 40px;
+        outline: green dotted 4px;
+    }
+
+</style>
+</head>
+<body>
+
+<!-- DIVS -->
+
+    <div class="div1"><p>
+        content width: 350 <br>
+        top margin: 20px <br>
+        right margin: 20px <br>
+        bottom margin: 20px <br>
+        left margin: 20px <br>
+        top border: 10px <br>
+        right border: 10px <br>
+        bottom border: 10px <br>
+        left border: 10px <br>
+        top padding: 20px <br>
+        right padding: 20px <br>
+        bottom padding: 20px <br>
+        left padding: 20px <br>
+        outline thickness: 4px <br>
+        TOTAL BOX WIDTH: 450px
+        </p>
+    </div>
+    <div class="div2"><p>
+        content width: 350 <br>
+        top margin: 20px <br>
+        right margin: 30px <br>
+        bottom margin: 20px <br>
+        left margin: 30px <br>
+        top border: 10 <br>
+        right border: 20 <br>
+        bottom border: 10 <br>
+        left border: 20 <br>
+        top padding: 20<br>
+        right padding: 30 <br>
+        bottom padding: 20 <br>
+        left padding: 30<br>
+        outline thickness: 4px <br>
+        TOTAL BOX WIDTH: 490
+        </p>
+    </div>
+    <div class="div3"><p>
+        content width: 350 <br>
+        top margin: 10 <br>
+        right margin: 20 <br>
+        bottom margin: 30 <br>
+        left margin: 40 <br>
+        top border: 10 <br>
+        right border: 20 <br>
+        bottom border: 30 <br>
+        left border: 40 <br>
+        top padding: 10 <br>
+        right padding: 20 <br>
+        bottom padding: 30 <br>
+        left padding: 40 <br>
+        outline thickness: 4px <br>
+        TOTAL BOX WIDTH: 530
+        </p>
+    </div>
+
+</body>
+</html>
+
