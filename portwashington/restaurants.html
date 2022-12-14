@@ -1,95 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+    <link rel="stylesheet" href="styles.css">
+<title>Restaurants</title>
 <style>
-
-h1.welcome {
-        padding-top: 75px;
-    }
-
-    h1.welcome, p.welcome {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    table.welcome {
-        width: 100%;
-        margin: 0 auto;
-        border: 2px solid black;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    td {
-        border: 2px solid black;
-        text-align: center;
-    }
-
-    body.welcome {
-        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
-    }
-
-    ul.welcome, dl.welcome {
-        margin: 0 auto;
-        list-style-type: none;
-        background-color: white;
-    }
-
-
-    dt {
-        position: relative;
-        left: 20px;
-    }
-
-    ul.topnav {
-        position: fixed;
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: cornflowerblue;
-    }
-
-    ul.topnav li {
-        float: left;
-    }
-
-    ul.topnav li a.nologo {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px 20px;
-        text-decoration: none;
-    }
-
-    ul.topnav li a.logo {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 0px 20px 0px 20px;
-        text-decoration: none;
-    }
-    
-    ul.topnav li a:hover:not(.active) {
-        background-color: lightgreen; 
-        border: 5px solid lightgreen;
-    }
-
-    ul.topnav li a.active {
-        background-color: lightgreen; 
-        border: 5px solid green;
-    }
-
-    ul.topnav li.right {
-        float: right;
-    }
-
-
-
-
 </style>
 </head>
 <body class="welcome">
@@ -107,8 +21,19 @@ h1.welcome {
 
     <p class="welcome">Port Washington might seem like a small town, but that dosent say anything about it's restaurants. The city is home to a variety of restaurants, offering a diverse range of cuisines and dining experiences. Some popular options in the area include local seafood dishes, Italian and American fare, and a range of ethnic cuisines. Many of the restaurants in Port Washington have outdoor seating, allowing diners to enjoy the city's beautiful lakeside setting.
     </p>
+
+    <div class="row">
+        <div class="columnf column1">
+            <p>Picture 1</p>
+            <img class="welcome" src="https://pbs.twimg.com/profile_images/475318089739825152/rxRi2SOf_400x400.jpeg">
+        </div>
+        <div class="columnf column2">
+            <p>Picture 2</p>
+            <img class="welcome" src="https://i.ibb.co/mH3T7zV/steerage.jpg">
+        </div>
+    </div>
     
-    <table class="welcome">
+    <table class="welcome" style="visibility: collapse;">
         <tr>
             <td class="welcome"><img class="welcome" src="https://pbs.twimg.com/profile_images/475318089739825152/rxRi2SOf_400x400.jpeg"></td>
             <td class="welcome"><img class="welcome" src="https://i.ibb.co/mH3T7zV/steerage.jpg"></td>
@@ -139,6 +64,10 @@ h1.welcome {
             </td>
         </tr>
     </table>
+
+    <div class="footer">
+        <p>© 2022 Leopard Industries</p>
+    </div>
 
 </body>
 </html>

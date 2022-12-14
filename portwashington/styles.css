@@ -1,0 +1,720 @@
+* {
+        box-sizing: border-box;
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+    div.columna {
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 500px; 
+        text-align: center;
+    }
+
+    div.row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    h1.welcome {
+        padding-top: 75px;
+    }
+
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        position: fixed;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+{
+        box-sizing: border-box;
+    }
+
+    div.columnb {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 250px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+
+h1.welcome {
+        padding-top: 75px;
+    }
+
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt, p.dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        position: fixed;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+
+* {
+        box-sizing: border-box;
+    }
+
+    div.columnc {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 500px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+
+h1.welcome {
+        padding-top: 75px;
+    }
+
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        position: fixed;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    div.columnd {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 500px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+    div.row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    h1.welcome {
+        padding-top: 75px;
+    }
+    
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+        position: fixed
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+* {
+        box-sizing: border-box;
+    }
+
+    div.columne {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 400px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+    div.column3 {
+        float: left;
+        background-color: grey;
+        width: 25%;
+        padding: 10px 10px 10px 10px;
+        height: 200px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column4 {
+        float: left;
+        background-color: lightgrey;
+        width: 75%;
+        padding: 10px 10px 10px 10px;
+        height: 200px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.columns {
+        font-size: 2em;
+        margin: auto;
+        background-color: grey;
+    }
+
+
+    h1.welcome {
+        padding-top: 75px;
+    }
+    
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    td.welcome {
+        width: 50%;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+        position: fixed
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    td.picture {
+        background-color: white;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+* {
+        box-sizing: border-box;
+    }
+
+    div.columnf {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+        height: 500px; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    div.column2 {
+        background-color: grey;
+    }
+
+    div.column1 {
+        background-color: lightgray;
+    }
+
+
+h1.welcome {
+        padding-top: 75px;
+    }
+
+    h1.welcome, p.welcome {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table.welcome {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    body.welcome {
+        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
+    }
+
+    ul.welcome, dl.welcome {
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: white;
+    }
+
+
+    dt {
+        position: relative;
+        left: 20px;
+    }
+
+    ul.topnav {
+        position: fixed;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: cornflowerblue;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a.nologo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a.logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: lightgreen; 
+        border: 5px solid lightgreen;
+    }
+
+    ul.topnav li a.active {
+        background-color: lightgreen; 
+        border: 5px solid green;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    div.footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+

@@ -1,95 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+    <link rel="stylesheet" href="styles.css">
+<title>History</title>
 <style>
-
-h1.welcome {
-        padding-top: 75px;
-    }
-
-    h1.welcome, p.welcome {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    table.welcome {
-        width: 100%;
-        margin: 0 auto;
-        border: 2px solid black;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    td {
-        border: 2px solid black;
-        text-align: center;
-    }
-
-    body.welcome {
-        background-image: url("https://www.portwashingtonwi.gov/Home/ShowImage?id=1278");
-    }
-
-    ul.welcome, dl.welcome {
-        margin: 0 auto;
-        list-style-type: none;
-        background-color: white;
-    }
-
-
-    dt {
-        position: relative;
-        left: 20px;
-    }
-
-    ul.topnav {
-        position: fixed;
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: cornflowerblue;
-    }
-
-    ul.topnav li {
-        float: left;
-    }
-
-    ul.topnav li a.nologo {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px 20px;
-        text-decoration: none;
-    }
-
-    ul.topnav li a.logo {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 0px 20px 0px 20px;
-        text-decoration: none;
-    }
-    
-    ul.topnav li a:hover:not(.active) {
-        background-color: lightgreen; 
-        border: 5px solid lightgreen;
-    }
-
-    ul.topnav li a.active {
-        background-color: lightgreen; 
-        border: 5px solid green;
-    }
-
-    ul.topnav li.right {
-        float: right;
-    }
-
-
-
-
 </style>
 </head>
 <body class="welcome">
@@ -120,13 +34,28 @@ h1.welcome {
         
         
     </p>
+
+    <div class="row">
+        <div class="columnc column1">
+        <p>Picture 1</p>
+        <img class="welcome" src="https://i.ibb.co/hYywzwV/house.jpg">
+        </div>
+        <div class="columnc column2">
+            <p>Picture 2</p>
+            <img class="welcome" src="https://i.ibb.co/C5pxm0H/theatre-400x400.jpg">
+        </div>
+    </div>
     
-    <table class="welcome">
+    <table class="welcome" style="visibility: collapse">
         <tr>
             <td class="welcome"><img class="welcome" src="https://i.ibb.co/hYywzwV/house.jpg"></td>
             <td class="welcome"><img class="welcome" src="https://i.ibb.co/C5pxm0H/theatre-400x400.jpg"></td>
         </tr>
     </table>
+
+    <div class="footer">
+        <p>© 2022 Leopard Industries</p>
+    </div>
 
 </body>
 </html>
